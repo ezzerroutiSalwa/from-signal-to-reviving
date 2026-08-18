@@ -6,7 +6,7 @@ from scipy.io import wavfile
 # 1. Charger le signal audio
 # ==========================================
 
-filename = r"C:\Users\HP\Downloads\the-circor-digiscope-phonocardiogram-dataset-1.0.3\the-circor-digiscope-phonocardiogram-dataset-1.0.3\training_data\13918_MV.wav"
+filename = r"youraudio.wav"
 
 fs, signal = wavfile.read(filename)
 
